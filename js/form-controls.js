@@ -1,4 +1,7 @@
 
 function button_click() {
-    console.log("The button was clicked!");
+    let inCtrl = document.getElementById("inp");
+    let inValue = inCtrl.value;
+    let outCtrl = document.getElementById("outp")
+    outCtrl.value = inValue;
 }
