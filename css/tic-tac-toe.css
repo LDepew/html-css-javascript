@@ -1,0 +1,8 @@
+table td{
+    font-size: 10em;
+    border: 2px solid black;
+    display:inline-block;
+    margin: -2px 0px;
+    padding: 1px 50px;
+     
+}
