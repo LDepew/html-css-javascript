@@ -1,3 +1,12 @@
+td {
+    color:darkblue;
+}
+#java {
+    color:blue;
+}
+div p {
+    color:green;
+}
 address {
     font-size:1.5em;
 }
