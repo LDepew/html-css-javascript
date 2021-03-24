@@ -1,0 +1,24 @@
+<html>
+<head>
+<script language="javascript" type="text/javascript">
+currentvalue = 0;
+function setUp() {
+document.getElementById("add_subtract").value = currentvalue;
+}
+function addOne() {
+currentvalue++;
+document.getElementById("add_subtract").value = currentvalue;
+}
+function subtractOne() {
+currentvalue--;
+document.getElementById("add_subtract").value = currentvalue;
+}
+</script>
+</head>
+<body onload="setUp()">
+<form>
+<input type="button" value="Add One" onClick="addOne()">
+<input type="text" id="add_subtract">
+<input type="button" value="Subtract One" onClick="subtractOne()">
+</body>
+</html>
